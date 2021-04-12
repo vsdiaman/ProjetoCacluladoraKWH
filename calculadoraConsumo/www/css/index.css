@@ -1,0 +1,193 @@
+/* geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #464343;
+    border: none;
+    
+}
+
+body{
+background:#17a8f7;
+
+    
+}
+
+textarea:focus, input:focus {
+    outline: none;
+    
+}
+
+label {
+    font-size:  .9rem;
+       
+}
+#title{
+
+    border: none;
+    transition: .8s;
+    background: rgba(243, 76, 76, 0.4);
+
+}
+#quest-container {
+    background-color: #fff;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px;
+    margin-top: 5vh;
+    border-radius: 20px;
+    text-align: center;
+    
+    
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+
+label, input{
+    display: block;
+width: 100%;
+text-align: left;
+
+}
+
+label {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+input {
+    border-bottom: 1px solid#323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    width: 200px;
+    float: none;
+    display: inline-block;
+}
+
+input:focus {
+    border-bottom: 2px solid #085588;
+    
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #085588;
+    cursor: pointer;
+    width: 400px;
+}
+
+input[type="button"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #085588;
+    cursor: pointer;
+    width: 400px;
+}
+
+
+input[type="submit"]:hover  {
+    background-color: red;
+    transition: .8s;
+    }
+
+input[type="submit"]{
+    background-color: #18223c;
+    transition: 1s;
+    
+    }
+
+#textmini {
+    font-size:  .8rem;
+    font-family: italic;
+    color: #323232;
+}
+
+.quest1{
+    text-align: center;
+}
+
+.quest2{
+    text-align: center;
+}
+
+.quest3{
+    text-align: center;
+}
+
+.quest4{
+    text-align: center;
+}
+/*Informação*/
+
+
+input[type="button"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #575a5c;
+    cursor: pointer;
+    width: 150px;
+}
+
+
+
+
+input[type="button"]{
+        transition: 1s;
+        margin-left: auto;
+        margin-right: auto;
+        
+        }
+input[type="button"]:hover  {
+        background-color: red;
+        transition: .8s;
+        }
+       
+/*Reset*/
+
+input[type="reset"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #575a5c;
+    cursor: pointer;
+    width: 150px;
+}
+
+input[type="reset"]:hover  {
+    background-color: red;
+    transition: .8s;
+    }

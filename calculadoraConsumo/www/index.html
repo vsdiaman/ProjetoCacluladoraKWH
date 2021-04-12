@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+   <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Calcular</title>
+</head>
+
+<body>
+
+    <div id="quest-container">
+        <h1 id="title">kwh - Calcular</h1><br>
+        <img src="img/raio.png" width="40">
+        <form action="">
+
+            <label for="quest1">Potência do aparelho em Watts:</label>
+            <input type="text" class="quest1" name="quest1" autocomplete="off">
+
+            <label for="quest2">Quantidade de horas de funcionamento por dia:</label>
+            <input type="text" class="quest2" name="quest2" autocomplete="off">
+
+            <label for="quest3">Quantidade de dias por mês:</label>
+            <input type="text" class="quest3" name="quest3" autocomplete="off">
+
+            <label for="quest4">Preço do Kwh em sua cidade:</label>
+            <input type="text" class="quest4" name="quest4">
+
+            <div id="textmini">
+                *Este valor de tarifa é encontrado na sua conta de energia .
+            </div>
+            <input type="button" value="Calcular" onclick="clicar()">
+
+            <p>Gasto(kWh/Mês/R$):</p><br><br>
+            <h2 id="calcular"></h2>
+
+        
+        <div id="return-container">
+            <input type="reset" class="button" onclick="back()" value="Limpar">
+            <a href="https://www.linkedin.com/in/vitor-diamantino-6573a6105/" target="_blank"><input onclick="clicr()"
+                    type="button" value="Sobre">
+
+                </form>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
