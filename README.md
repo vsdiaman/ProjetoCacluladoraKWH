@@ -1,3 +1,2 @@
 # ProjetoCacluladoraKWH
-# ProjetoCacluladoraKWH
-# ProjetoCacluladoraKWH
+
